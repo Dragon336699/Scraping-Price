@@ -55,4 +55,5 @@ await Parallel.ForEachAsync(Urls, async (url,token) =>
     }
     await page.CloseAsync();
 });
+browserFetcher.Dispose();
 
